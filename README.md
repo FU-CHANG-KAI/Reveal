@@ -1,10 +1,10 @@
 # Reveal
-Reveal is a function whcih visually display the relation between ecnomic growth (gdpPercapita) and life expextancy(lifeExp) of countries around the world.
+Reveal is a function whcih **visually displays the relation between ecnomic growth (gdpPercapita) and life expextancy(lifeExp)** of different group of countries around the world.
 
-##Installation
-Use pandas and matplotlib 
+## Installation
+Use pandas and matplotlib
 
-##Usage
+## Usage
 
 ```python
 import pandas as pd
@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 plt.plot # Line Plot
 plt.subplots # Sub Plot
 ```
+## Limitation
+Reveal is still under construction. More features will be presented in the near feature.
 
 ## Contributing
 Note that the kit is still under construction. Pull requests are welcome. 
