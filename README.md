@@ -16,7 +16,7 @@ plt.subplots # Sub Plot
 ## Limitation
 Reveal is still under construction. More features will be presented in the near feature.
 
-![](image/five@20continents.png)
+![](images/five%20continents.png)
 
 ## Contributing
 Note that the kit is still under construction. Pull requests are welcome. 
