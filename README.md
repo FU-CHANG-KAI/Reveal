@@ -16,6 +16,12 @@ plt.subplots # Sub Plot
 ## Limitation
 Reveal is still under construction. More features will be presented in the near feature.
 
+![](images/High%20Income.png)
+
+![](images/Middle%20Income.png)
+
+![](images/Low%20Income.png)
+
 ![](images/five%20continents.png)
 
 ## Contributing
