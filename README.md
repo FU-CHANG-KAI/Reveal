@@ -31,20 +31,25 @@ FG.1 Sub plot
 FG.2 Box plot
 
 (1)Accoring to box plot, GDP per capita is extremely low and almost all people living in such poverty condition at Africa countries. 
+
 (2)Further observations might be displayed by looking more detail at the below three charts.  
 
+
 ![](images/High%20Income.png)
+
 FG.3 Line plot for high income countries
 
 Life expectancy linearly increases with the growth of GDP. 
 
 ![](images/Middle%20Income.png)
+
 FG.4 Line plot for middle income countries
 
 Life expectancy expoentially increases with the growth of GDP. 
 
 
 ![](images/Low%20Income.png)
+
 FG.5 Line plot for low income countries
 
 life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
