@@ -47,7 +47,7 @@ FG.2 Box plot
 
 FG.3 Line plot for high income countries
 
-Life expectancy linearly increases with the growth of GDP. 
+(1)Life expectancy linearly increases with the growth of GDP. 
 
 
 
@@ -56,7 +56,7 @@ Life expectancy linearly increases with the growth of GDP.
 
 FG.4 Line plot for middle income countries
 
-Life expectancy expoentially increases with the growth of GDP. 
+(1)Life expectancy expoentially increases with the growth of GDP. 
 
 
 
@@ -65,7 +65,7 @@ Life expectancy expoentially increases with the growth of GDP.
 
 FG.5 Line plot for low income countries
 
-life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
+(1)life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
 
 
 ## Contributing
