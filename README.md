@@ -18,7 +18,7 @@ plt.subplots # Sub Plot
 Reveal is still under construction. More features will be presented in the near feature.
 
 ## Observation
-
+<img src="images/box%20plot.PNG" width="100">
 ![](images/five%20continents.png)
 FG.1 Sub plot
 
