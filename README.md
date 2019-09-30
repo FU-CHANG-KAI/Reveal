@@ -27,7 +27,7 @@ FG.1 Sub plot
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
 <img src="images/box%20plot.png" width="400">
-![](images/box%20plot.png)
+
 FG.2 Box plot
 
 (1)Accoring to box plot, GDP per capita is extremely low and almost all people living in such poverty condition at Africa countries. 
