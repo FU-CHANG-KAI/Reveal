@@ -8,6 +8,28 @@ dataInput = pd.read_csv(csv_url)
 print(dataInput.shape)
 dataInput.head
 
+#GDP per capita and Life Expectancy - Five continents (sub plot)
+fig, axes = plt.subplots(2, 3, figsize=(25, 12))
+continents = dataInput["continent"].unique()
+row_indices = [0, 0, 0, 1, 1]
+col_indices = [0, 1, 2, 0, 1]
+for conts, row_i, col_i in zip(continents, row_indices, col_indices):
+    x = dataInput[dataInput["continent"] == conts]["gdpPercap"].values
+    y = dataInput[dataInput["continent"] == conts]["lifeExp"].values
+    axes[row_i,col_i].scatter(x,y,color= "gold")
+    axes[row_i,col_i].set_title("{}".format(conts), fontsize=12)
+    axes[1,2].set_visible(False)
+plt.ylabel('Life expectancy')
+fig.suptitle('GDP per Capita and Life Expectancy - Five continents', fontsize=14)
+plt.show()
+
+#box plot shows the level and dispersion of GDP per capita
+continents = dataInput["continent"].unique()
+list_of_array = [dataInput[dataInput["continent" ] == cont]["gdpPercap"].values for cont in continents]
+plt.boxplot(list_of_array)
+plt.xticks(range(1, 6), continents)
+plt.show()
+
 # GDP per capita and lifeExp - High Income Countries
 uk = dataInput[dataInput['country'] == 'United Kingdom']
 us = dataInput[dataInput['country'] == 'United States']
@@ -54,17 +76,3 @@ plt.ylabel('Life expectancy')
 plt.legend()
 plt.show()
 
-#GDP per capita and Life Expectancy - Five continents
-fig, axes = plt.subplots(2, 3, figsize=(25, 12))
-continents = dataInput["continent"].unique()
-row_indices = [0, 0, 0, 1, 1]
-col_indices = [0, 1, 2, 0, 1]
-for conts, row_i, col_i in zip(continents, row_indices, col_indices):
-    x = dataInput[dataInput["continent"] == conts]["gdpPercap"].values
-    y = dataInput[dataInput["continent"] == conts]["lifeExp"].values
-    axes[row_i,col_i].scatter(x,y,color= "gold")
-    axes[row_i,col_i].set_title("{}".format(conts), fontsize=12)
-    axes[1,2].set_visible(False)
-plt.ylabel('Life expectancy')
-fig.suptitle('GDP per Capita and Life Expectancy - Five continents', fontsize=14)
-plt.show()
