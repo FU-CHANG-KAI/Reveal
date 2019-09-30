@@ -11,6 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 plt.plot # Line Plot
+plt.boxplot # box plot
 plt.subplots # Sub Plot
 ```
 ## Limitation
@@ -19,25 +20,33 @@ Reveal is still under construction. More features will be presented in the near 
 ## Observation
 
 ![](images/five%20continents.png)
-(sub plot)
-(1)In Asia, we can observe that life expectancy expoentially increeases with the growth of GDP. 
+FG.1 Sub plot
+
+(1)In Asia, we can observe that life expectancy expoentially increases with the growth of GDP. 
 (2)In Americas and Europe, life expectancy expoentially increeases with the growth of GDP anf then begin to linearly grow up. 
-(3)But in africa, even GDP per capita is in the same level, there are big differences between life expectancies.
+(3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
+![](images/box%20plot.png)
+FG.2 Box plot
 
-Accoring to box plot, GDP per capita is extremely low and almost all people living in such poverty condition. 
-Further observations might be displayed by look sight into 
-
+(1)Accoring to box plot, GDP per capita is extremely low and almost all people living in such poverty condition at Africa countries. 
+(2)Further observations might be displayed by looking more detail at the below three charts.  
 
 ![](images/High%20Income.png)
+FG.3 Line plot for high income countries
 
+Life expectancy linearly increases with the growth of GDP. 
 
 ![](images/Middle%20Income.png)
+FG.4 Line plot for middle income countries
+
+Life expectancy expoentially increases with the growth of GDP. 
 
 
 ![](images/Low%20Income.png)
+FG.5 Line plot for low income countries
 
-
+life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
 
 ## Contributing
 Note that the kit is still under construction. Pull requests are welcome. 
