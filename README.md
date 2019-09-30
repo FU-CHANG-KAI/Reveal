@@ -33,7 +33,6 @@ FG.1 Sub plot
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
 
-
 <img src="images/box%20plot.png" width="400">
 
 FG.2 Box plot
@@ -41,7 +40,6 @@ FG.2 Box plot
 (1)Accoring to box plot, GDP per capita is extremely low and almost all people living in such poverty condition at Africa countries. 
 
 (2)Further observations might be displayed by looking more detail at the below three charts.  
-
 
 
 
@@ -62,13 +60,15 @@ FG.4 Line plot for middle income countries
 
 
 
-
 <img src="images/Low%20Income.png" width="400">
 
 FG.5 Line plot for low income countries
 
 (1)life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
 
+
+## Data source
+https://www.gapminder.org/
 
 ## Contributing
 Note that the kit is still under construction. Pull requests are welcome. 
