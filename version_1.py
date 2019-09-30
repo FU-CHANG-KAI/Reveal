@@ -31,47 +31,47 @@ plt.xticks(range(1, 6), continents)
 plt.show()
 
 # GDP per capita and lifeExp - High Income Countries
-uk = dataInput[dataInput['country'] == 'United Kingdom']
-us = dataInput[dataInput['country'] == 'United States']
-gn = dataInput[dataInput['country'] == 'Germany']
+uk = dataInput[dataInput["country"] == "United Kingdom"]
+us = dataInput[dataInput["country"] == "United States"]
+gn = dataInput[dataInput["country"] == "Germany"]
 
-plt.plot(uk['gdpPercap'], uk['lifeExp'], label = 'United Kingdom')
-plt.plot(us['gdpPercap'], us['lifeExp'], label = 'United States')
-plt.plot(gn['gdpPercap'], gn['lifeExp'], label = 'Germany')
+plt.plot(uk["gdpPercap"], uk["lifeExp"], label = "United Kingdom")
+plt.plot(us["gdpPercap"], us["lifeExp"], label = "United States")
+plt.plot(gn["gdpPercap"], gn["lifeExp"], label = "Germany")
 plt.title("GDP per Capita and lifeExp - High Income Countries ")
-plt.xlabel('gpdPercap')
-plt.ylabel('Life Expectancy')
+plt.xlabel("gpdPercap")
+plt.ylabel("Life Expectancy")
 
 plt.legend()
 plt.show()
 
 #GDP per capita and lifeExp - Middle Income Countries
 
-ph = dataInput[dataInput['country'] == 'Philippines']
-vn = dataInput[dataInput['country'] == 'Vietnam']
-th = dataInput[dataInput['country'] == 'Thailand']
+ph = dataInput[dataInput["country"] == "Philippines"]
+vn = dataInput[dataInput["country"] == "Vietnam"]
+th = dataInput[dataInput["country"] == "Thailand"]
 
-plt.plot(ph['gdpPercap'], ph['lifeExp'], label = 'Philippines')
-plt.plot(vn['gdpPercap'], vn['lifeExp'], label = 'Vietnam')
-plt.plot(th['gdpPercap'], th['lifeExp'], label = 'Thailand')
+plt.plot(ph["gdpPercap"], ph["lifeExp"], label = "Philippines")
+plt.plot(vn["gdpPercap"], vn["lifeExp"], label = "Vietnam")
+plt.plot(th["gdpPercap"], th["lifeExp"], label = "Thailand")
 plt.title("GDP per Capita and lifeExp - Middle Income Countries ")
-plt.xlabel('gpdPercap')
-plt.ylabel('Life expectancy')
+plt.xlabel("gpdPercap")
+plt.ylabel("Life expectancy")
 
 plt.legend()
 plt.show()
 
 #GDP per capita and lifeExp - Low Income Countries
-cd = dataInput[dataInput['country'] == 'Chad']
-sd = dataInput[dataInput['country'] == 'Sudan']
-ug = dataInput[dataInput['country'] == 'Uganda']
+cd = dataInput[dataInput["country"] == "Chad"]
+sd = dataInput[dataInput["country"] == "Sudan"]
+ug = dataInput[dataInput["country"] == "Uganda"]
 
-plt.plot(cd['gdpPercap'], cd['lifeExp'], label = 'Chad')
-plt.plot(sd['gdpPercap'], sd['lifeExp'], label = 'Sudan')
-plt.plot(ug['gdpPercap'], ug['lifeExp'], label = 'Uganda')
+plt.plot(cd["gdpPercap"], cd["lifeExp"], label = "Chad")
+plt.plot(sd["gdpPercap"], sd["lifeExp"], label = "Sudan")
+plt.plot(ug["gdpPercap"], ug["lifeExp"], label = "Uganda")
 plt.title("GDP per Capita and lifeExp - Low Income Countries ")
-plt.xlabel('GDP per Capita')
-plt.ylabel('Life expectancy')
+plt.xlabel("GDP per Capita")
+plt.ylabel("Life expectancy")
 
 plt.legend()
 plt.show()
