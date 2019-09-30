@@ -26,7 +26,7 @@ FG.1 Sub plot
 (2)In Americas and Europe, life expectancy expoentially increeases with the growth of GDP anf then begin to linearly grow up. 
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
-<img src="images/box%20plot.PNG" width="400">
+<img src="images/box%20plot.png" width="400">
 ![](images/box%20plot.png)
 FG.2 Box plot
 
