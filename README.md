@@ -1,8 +1,10 @@
 # Reveal
 Reveal is a function whcih **visually displays the relation between ecnomic growth (gdpPercapita) and life expextancy(lifeExp)** of different group of countries around the world.
 
+
 ## Installation
 Use pandas and matplotlib
+
 
 ## Usage
 
@@ -14,8 +16,10 @@ plt.plot # Line Plot
 plt.boxplot # box plot
 plt.subplots # Sub Plot
 ```
+
 ## Limitation
 Reveal is still under construction. More features will be presented in the near feature.
+
 
 ## Observation
 
@@ -26,7 +30,9 @@ FG.1 Sub plot
 (2)In Americas and Europe, life expectancy expoentially increeases with the growth of GDP anf then begin to linearly grow up. 
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
-<img src="images/box%20plot.png" width="500">
+
+
+<img src="images/box%20plot.png" width="400">
 
 FG.2 Box plot
 
@@ -36,28 +42,31 @@ FG.2 Box plot
 
 
 
-<img src="images/High%20Income.png" width="500">
-#![](images/High%20Income.png)
+
+<img src="images/High%20Income.png" width="400">
 
 FG.3 Line plot for high income countries
 
 Life expectancy linearly increases with the growth of GDP. 
 
 
-<img src="images/Middle%20Income.png" width="500">
-#![](images/Middle%20Income.png)
+
+
+<img src="images/Middle%20Income.png" width="400">
 
 FG.4 Line plot for middle income countries
 
 Life expectancy expoentially increases with the growth of GDP. 
 
 
-<img src="images/Low%20Income.png" width="500">
-#![](images/Low%20Income.png)
+
+
+<img src="images/Low%20Income.png" width="400">
 
 FG.5 Line plot for low income countries
 
 life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
+
 
 ## Contributing
 Note that the kit is still under construction. Pull requests are welcome. 
