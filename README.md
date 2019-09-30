@@ -27,7 +27,9 @@ Reveal is still under construction. More features will be presented in the near 
 FG.1 Sub plot
 
 (1)In Asia, we can observe that life expectancy expoentially increases with the growth of GDP. 
+
 (2)In Americas and Europe, life expectancy expoentially increeases with the growth of GDP anf then begin to linearly grow up. 
+
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
 
