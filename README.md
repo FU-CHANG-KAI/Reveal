@@ -18,7 +18,7 @@ plt.subplots # Sub Plot
 Reveal is still under construction. More features will be presented in the near feature.
 
 ## Observation
-<img src="images/box%20plot.PNG" width="100">
+
 ![](images/five%20continents.png)
 FG.1 Sub plot
 
@@ -26,6 +26,7 @@ FG.1 Sub plot
 (2)In Americas and Europe, life expectancy expoentially increeases with the growth of GDP anf then begin to linearly grow up. 
 (3)But in Africa, even GDP per capita is in the same level, there are big differences between life expectancies.
 
+<img src="images/box%20plot.PNG" width="100">
 ![](images/box%20plot.PNG)
 FG.2 Box plot
 
