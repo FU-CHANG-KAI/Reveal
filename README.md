@@ -67,7 +67,7 @@ FG.5 Line plot for low income countries
 (1)life expectancy does not relevant when GDP grows, which implies there are more essential factor effect human's lives in these areas. 
 
 
-## Data source
+## Source of data
 https://www.gapminder.org/
 
 ## Contributing
