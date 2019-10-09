@@ -1,5 +1,5 @@
 # Reveal
-Reveal is a function whcih **visually displays the relation between ecnomic growth (gdpPercapita) and life expextancy(lifeExp)** of different group of countries around the world.
+Reveal is a function which **visually displays the relation between economic growth (gdpPercapita) and life expectancy(lifeExp)** of specific continents and country groups
 
 
 ## Installation
