@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-url = "https://storage.googleapis.com/learn_pd_like_tidyverse/gapminder.csv"
+csv_url = "https://storage.googleapis.com/learn_pd_like_tidyverse/gapminder.csv"
 dataInput = pd.read_csv(csv_url)
 
 # review the dimension of data source
